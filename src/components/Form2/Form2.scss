@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  label {
+    margin: 20px;
+
+    input {
+      margin-left: 10px;
+    }
+  }
+
+  .csvUpload {
+    border: 2px solid black;
+    padding: 60px;
+  }
+}
